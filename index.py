@@ -30,9 +30,6 @@ def checkword(w):
         msg += '\n'
     return msg
 
-w = input("請輸入要查詢的國字：")
-print(checkword(w))
-
 app = Flask(__name__)
 
 line_bot_api = LineBotApi('USazBFzGGm3vtogwZwobys6ta5d2Y/bBlX3UOIcPW3WTw8lX4AhE8/l42EI49x4gJeIURmDoEvHzDgo+AGVuBmJo3A2crx+Ac0eOxXavmrbXEBVZeVK2p4dGlqhHzC4rtRtRYw7aKSkKP2GVB/b/ewdB04t89/1O/w1cDnyilFU=')
